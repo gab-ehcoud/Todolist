@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 10 - ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/416791324d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet"/>
+</head>
+<body>
+    <p class="description">Minimal but flexible todo app</p>
+    <div class="main">
+        <h1 class= "title">go ToDo </h1>
+        <br><br>
+    <form id="form">
+        <input type="text" autocomplete="off" placeholder="Enter your todo" class="gotoDoInput" id="input">
+        <ul class="todos" id="todos">
+            <!-- <li>list of todo</li> -->
+        </ul>
+    </form>
+    <small><span class="leftclick">Left click to uncheck</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="rightclick"> Right click to delete todo</span>  </small>
+    </div>
+    <div class="button">
+        <button onclick="daynight()" class="daynight"><i class="fa fa-solid fa fa-moon"></i></button>
+    </div>
+    <br><br>
+    <div class="footer"> 
+        Made with <i class="fa fa-solid fa fa-heart"></i>
+        &nbsp; &nbsp;
+        <a href="https://github.com/gab-ehcoud">
+        <i class="fa fa-brands fa fa-github"></i>
+    </a>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
